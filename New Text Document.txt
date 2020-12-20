@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Images</title>
+<style type="text/css">
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: auto;
+  padding-top: 20px;
+}
+
+
+.right {
+  
+right: 0;
+ 
+}
+
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+</style>
+</head>
+
+<body>
+<h2>Black T-Shirt</h2>
+<br>
+<h4>Product Information</h4>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="picture6.jfif"  width="276" height="276">
+  </div>
+</div>
+
+
+
+<div class="split right">
+  <div class="centered">
+    
+   <p> <h3> Color : Black </h3> </p>
+   <p> <h3> Size : 8</h3> </p>
+   <p> <h3> Textile : canvas </h3> </p>
+   <p> <h3> Price : 45$ </h3> </p> 
+  </div>
+</div>
+
+
+
+
+</body>
